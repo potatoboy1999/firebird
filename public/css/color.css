@@ -1,0 +1,21 @@
+.red{
+	color: red !important;
+}
+.white{
+	color: white;
+}
+.blue{
+	color: blue;
+}
+
+.bg-white{
+	background: white;
+}
+
+.bg-gray{
+	background: gray;
+}
+
+.bg-red{
+	background-color: red;
+}
