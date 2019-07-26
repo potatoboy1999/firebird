@@ -47,7 +47,6 @@
           $links = [
             //'dashboard'=>['status'=>'','url'=>'admin/home','name'=>'Inicio','icon'=>'fa-dashboard'],
             'books'=>['status'=>'','url'=>'books','name'=>'Libros','icon'=>'fa-book'],
-            #'appDescription'=>['status'=>'','url'=>'admin/app/description','name'=>'Descripción del Club','icon'=>'fa-file-text-o'],
           ];
           if(isset($view)) $links[$view]['status'] = 'active';
           foreach ($links as $link) {?>
